@@ -2,7 +2,7 @@ import Card from "./Card";
 import styled from "styled-components"
 
 const Div = styled.div`
-border 0.3em solid #555
+border 0.3em solid #555;
 `
 
 export default function Cards(props) {
