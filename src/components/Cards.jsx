@@ -3,6 +3,12 @@ import styled from "styled-components"
 
 const Div = styled.div`
 border 0.3em solid #555;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+
 `
 
 export default function Cards(props) {
